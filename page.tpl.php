@@ -135,7 +135,7 @@
 			<div class="span-3">
 				<h3>Partners</h3>
 				<p class="small">
-					<a href="http://akvo.org/web/partners">Strategic partners</a><br />
+					<a href="/web/partners">Strategic partners</a><br />
 					<a href="/rsr/organisations/">Project partners</a><br />
 					<a href="/web/commercial_partners">Commercial partners</a><br />
 					<a href="/web/knowledge_institute_partners">Knowledge institute partners</a><br />
