@@ -32,8 +32,8 @@
 				</a>
 			</li>
 			<li>
-				<a href="/wiki/">
-					<span>Akvopedia</span>
+				<a href="/rsr/projects/">
+					<span>Projects</span>
 				</a>
 			</li>
 			<li>
@@ -42,13 +42,13 @@
 				</a>
 			</li>
 			<li>
-				<a href="/rsr/projects/">
-					<span>Projects</span>
+				<a href="/wiki/">
+					<span>Akvopedia</span>
 				</a>
-			</li>
+			</li>			
 			<li>
 				<a href="/web/get_involved/" class="active">
-					<span>Get involved</span>
+					<span>About</span>
 				</a>
 			</li>
 			<li>
