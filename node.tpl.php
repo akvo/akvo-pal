@@ -3,12 +3,13 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="frame node<?php if ($sticky) { print " sticky"; } ?><?php if (!$status) { print " node-unpublished"; } ?>">
 	<div class="sliding_box_header">
-		<a href="<?php print $node_url?>"><?php print $title?></a>
+		<div class="space20">
+			<a href="<?php print $node_url?>"><h1><?php print $title?></h1></a>
+		</div>
 	</div>
 	<div class="space20">
 		<?php print $content?>
 	</div>
-	
 </div>
 	
 

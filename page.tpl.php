@@ -97,6 +97,7 @@
 	</div>
 	<?php print $closure ?>
 </div>
+<br />
 <div id="footer">
 	<div id="footer_container" class="container">
 		<div class="span-18">
