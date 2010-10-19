@@ -3,22 +3,20 @@
 ?><!DOCTYPE html>
 <html lang="<?php print $language->language ?>">
 <head>
+    <?php print $head ?>
 	<meta charset="utf-8" />
-	<link rel="shortcut icon" href="http://www.akvo.org/images/favicon.ico" />
-	<?php print $head ?>
+	<link rel="shortcut icon" href="<?php print base_path() . path_to_theme() .'/' ?>img/base/favicon.ico" />
 
 	<title><?php print $head_title ?></title>
 
 	<?php print $styles ?>
 	<?php print $scripts ?>
-	<style type="text/css" media="screen">
-		#maincontainer {
-			margin-top:60px;
-		}
-		#footer {
-			margin-top:40px;
-		}
-	</style>
+	
+	<script type="text/javascript"><?php /* Needed to avoid Flash of Unstyle Content in IE */ ?> </script>
+	
+	<link rel="alternate" type="application/rss+xml" title="Blog entries" href="/blog/?feed=rss2" />
+	<link rel="alternate" type="application/rss+xml" title="Project updates" href="/rsr/rss/all-updates" />
+	
 </head>
 <body>
 <div id="header">
@@ -27,6 +25,7 @@
     		<img src="<?php print $logo ?>"
     			alt="<?php print $site_name ?>" style="float:left;">
     	</a>
+    	
     	<?php if (isset($primary_links)) { ?>
     		<?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'main_nav')) ?>
     	<?php } ?>

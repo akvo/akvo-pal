@@ -9,10 +9,8 @@ ASSET_BUNDLES = {
             'grid.css',
             'typography.css',
             'base.css',
-            'utils.css',
+            'utility.css',
             'main_nav.css',
-            'index.css',
-            'buttons.css',
             ],
     },
 }
