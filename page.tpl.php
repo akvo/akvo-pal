@@ -23,6 +23,15 @@
 <body>
 <div id="header">
 	<div id="header_container" class="container">
+	    <a href="/">
+    		<img src="<?php print $logo ?>"
+    			alt="<?php print $site_name ?>" style="float:left;">
+    	</a>
+    	<?php if (isset($primary_links)) { ?>
+    		<?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'main_nav')) ?>
+    	<?php } ?>
+	
+	    <?php /*
 		<ul id="main_nav">
 			<li>
 				<a id="main_nav_left" href="/">
@@ -57,6 +66,7 @@
 				</a>
 			</li>
 		</ul>
+		*/ ?>
 	</div>
 </div>
 	
