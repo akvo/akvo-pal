@@ -35,24 +35,19 @@
 </div>
 
 <div id="main_container" class="container">
-	<div class="span-4 first">
-		<?php if ($left) { ?>
-  			<?php print $left ?>
-		<?php } ?>
-	</div>
-	<div class="span-14 last">
+
+	<div class="span-14 first">
 		<div class="white_box">
 			<div class="space20">
 				<?php print $tabs ?>
 				<?php print $content; ?>
 			</div>
 		</div>
-		<?php 
-		/* if ($show_messages) { print $messages; } ?>
-        <?php print $help ?>
-        
-        <?php print $feed_icons; */ 
-		?>
+	</div>
+	<div class="span-4 last">
+		<?php if ($right) { ?>
+  			<?php print $right ?>
+		<?php } ?>
 	</div>
 	<div class="span-18" style="display:none;">
 		<?php print $footer_message ?>
