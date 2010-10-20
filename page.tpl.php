@@ -20,14 +20,16 @@
 </head>
 <body>
 <div id="header">
-	<div id="header_container" class="container">
+	<div id="header_container" class="container" style="background-color:orange;">
+	    <?php /*
 	    <a href="/">
     		<img src="<?php print $logo ?>"
     			alt="<?php print $site_name ?>" style="float:left;">
     	</a>
+    	*/ ?>
     	
     	<?php if (isset($primary_links)) { ?>
-    		<?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'main_nav')) ?>
+    		<?php print theme('links', $primary_links, array(/*'class' => 'links',*/ 'id' => 'main_nav')) ?>
     	<?php } ?>
 	
 	    <?php /*
