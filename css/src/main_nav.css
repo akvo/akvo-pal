@@ -62,6 +62,35 @@ a#main_nav_left {
     overflow:hidden;
     }
 
+
+a#main_nav_logo {
+    width:100px !important;
+    overflow:hidden;
+    display: block;
+    float:left;
+    height:37px;
+    margin:0;
+    padding:0;
+    }
+    
+a#main_nav_logo:hover {
+    background-color:#fff;
+    }
+    
+a#main_nav_logo span {
+    height:28px;
+    display: block;
+    padding-top:5px;
+    cursor: pointer;
+    border-right: 1px solid #ACACBA;
+    text-align: center;
+    }
+    
+a#main_nav_logo span img {
+    margin:0;
+    padding:0;
+    }
+
 #main_nav_language {
     float:left;
     width:154px;
@@ -77,6 +106,10 @@ a#main_nav_left {
 #main_nav_account span {
     border-right: None !important;
     }
+
+
+
+
 
 /*ul#account_nav {
     background-color:cyan;

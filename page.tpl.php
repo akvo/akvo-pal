@@ -20,13 +20,14 @@
 </head>
 <body>
 <div id="header">
-	<div id="header_container" class="container" style="background-color:orange;">
-	    <?php /*
-	    <a href="/">
-    		<img src="<?php print $logo ?>"
-    			alt="<?php print $site_name ?>" style="float:left;">
+	<div id="header_container" class="container">
+	    <a href="/" id="main_nav_logo">
+	        <span>
+    		    <img src="<?php print $logo ?>"
+    			    alt="<?php print $site_name ?>">
+    			</img>
+    		</span>
     	</a>
-    	*/ ?>
     	
     	<?php if (isset($primary_links)) { ?>
     		<?php print theme('links', $primary_links, array(/*'class' => 'links',*/ 'id' => 'main_nav')) ?>
@@ -70,19 +71,8 @@
 		*/ ?>
 	</div>
 </div>
-	
-	<?php /*
-	<div id="header">
-		<div id="header_menu">
-			<?php if (isset($primary_links)) : ?>
-	          <?php print theme('links', $primary_links, array('id' => 'mainmenu')) ?>
-	        <?php endif; ?>
-			<div id="header_menu_right">&nbsp;</div>			
-		</div>
-	</div>
-	*/?>
 
-<div id="maincontainer" class="container">
+<div id="main_container" class="container">
 	<div class="span-4 first">
 		<?php if ($left) { ?>
   			<?php print $left ?>
