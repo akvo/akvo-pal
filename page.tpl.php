@@ -35,7 +35,13 @@
 </div>
 
 <div id="main_container" class="container">
-
+    <div class="span-18" style="margin-bottom:20px;">
+        <div id="breadcrum_back">			
+		    <?php print $breadcrumb ?>
+		    <div class="clear"></div>
+	    </div>
+    </div>
+    
 	<div class="span-14 first">
 		<div class="white_box">
 			<div class="space20">
