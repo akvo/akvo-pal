@@ -28,47 +28,9 @@
     			</img>
     		</span>
     	</a>
-    	
     	<?php if (isset($primary_links)) { ?>
-    		<?php print theme('links', $primary_links, array(/*'class' => 'links',*/ 'id' => 'main_nav')) ?>
+    		<?php print theme('links', $primary_links, array('id' => 'main_nav')) ?>
     	<?php } ?>
-	
-	    <?php /*
-		<ul id="main_nav">
-			<li>
-				<a id="main_nav_left" href="/">
-					<span>
-						<img src="<?php print $logo ?>" alt="Akvo.org" width="82" height="20" />
-					</span>
-				</a>
-			</li>
-			<li>
-				<a href="/rsr/projects/">
-					<span>Projects</span>
-				</a>
-			</li>
-			<li>
-				<a href="/rsr/organisations/">
-					<span>Partners</span>
-				</a>
-			</li>
-			<li>
-				<a href="/wiki/">
-					<span>Akvopedia</span>
-				</a>
-			</li>			
-			<li>
-				<a href="/web/get_involved/" class="active">
-					<span>About</span>
-				</a>
-			</li>
-			<li>
-				<a href="/blog/">
-					<span>Blog</span>
-				</a>
-			</li>
-		</ul>
-		*/ ?>
 	</div>
 </div>
 

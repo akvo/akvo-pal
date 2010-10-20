@@ -34,7 +34,7 @@ ul#main_nav li a {
     /*-webkit-transition:background-color .2s ease-out;*/
     }
 
-ul#main_nav li a:hover {   
+ul#main_nav li a:hover, ul#main_nav li.active-trail a {   
     background-color: #fff;
     color:#2097F7;
     text-decoration: none;
