@@ -7,14 +7,15 @@ table {
 
 
 blockquote {
-    background-color:#fef9db;
+    background-color: #fef9db;
     padding:8px;
-    margin: 20px 30px 20px;
+    margin:20px 30px 20px;
+    border:none;
     }
 
 code {
     background-color:#fef9db;
-    line-height: 1.5em;
-    margin: 20px 30px 20px;
-    padding: 10px;
+    line-height:1.5em;
+    margin:20px 30px 20px;
+    padding:10px;
     }
