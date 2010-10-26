@@ -1,5 +1,20 @@
 td { border:none;}
-table { 
+
+table {
     border-right:1px solid #ccc;
     border-bottom:1px solid #ccc;
+    }
+
+
+blockquote {
+    background-color:#fef9db;
+    padding:8px;
+    margin: 20px 30px 20px;
+    }
+
+code {
+    background-color:#fef9db;
+    line-height: 1.5em;
+    margin: 20px 30px 20px;
+    padding: 10px;
     }
