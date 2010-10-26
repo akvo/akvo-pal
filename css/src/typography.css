@@ -146,9 +146,12 @@ blockquote {
     padding:0 1em; 
     margin:1.6em 0;
     }
+
 blockquote *:first-child { margin: .8em 0; }
+/*
 blockquote *:first-child:before { content: "\201C"; }
 blockquote *:first-child:after { content: "\201D"; }
+*/
 
 
 /*------------------------------------------------------------------ 
