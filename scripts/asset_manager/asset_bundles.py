@@ -11,6 +11,7 @@ ASSET_BUNDLES = {
             'base.css',
             'utils.css',
             'main_nav.css',
+            'drupal.css',
             ],
     },
 }
