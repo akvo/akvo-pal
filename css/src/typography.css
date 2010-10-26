@@ -103,18 +103,17 @@ ul, ol {
     color:#333;
     font-size:0.875em;
     line-height:1.7em;
-    margin-bottom:0.5em; 
     margin-bottom:1.5em;   
-    margin-top:-0.5em;    
+    margin-top:0.5em;
     }
 ul ul {font-size:1em; margin-top:0em;}
 ol ol {font-size:1em; margin-top:0em;}
-ul li { margin-left:1em;}
-ul { list-style-position: outside; list-style-type: disc; margin-left: 0.5em; }
+/*ul li { margin-left:1em;}*/
+ul { list-style-position: outside; list-style-type: disc; padding:0px 20px;}
 ul ul { list-style-type: square; }
 ul ul ul { list-style-type: circle; }
-ol { list-style-position: inside; list-style-type: decimal; margin-left: 0.5em;}
-ol li {  margin-left:1em; }
+ol { list-style-position:outside; list-style-type:decimal; padding:0px 20px; }
+/*ol li {  margin-left:1em; }*/
 dt { font-weight: bold; margin-top: .8em; margin-bottom: .4em; }
 /*
 ol ol, ul ol { margin-left: 1.0em; }
