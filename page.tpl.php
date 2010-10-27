@@ -64,9 +64,18 @@
 <br />
 <div id="footer">
 	<div id="footer_container" class="container">
+	    <div class="span-18">
+			<h3>About Akvo.org</h3>
+			<p>
+			    We are a non-profit foundation headquartered in the Netherlands. We help connect 
+                doers and donors to transform communities in some of the poorest parts of the world. 
+                The Akvo platform is open source and we encourage others to build on and improve 
+                these tools, or adapt the platform for other purposes.
+			</p>
+		</div>
 		<div class="span-18">
 			<div class="span-3 first">
-				<h3>Policies</h3>
+				<h4>Policies</h4>
 				<p class="small">
 					<a href="/web/terms_of_use">General terms of use</a><br />
 					<a href="/web/privacy_policy">Privacy</a><br />
@@ -80,7 +89,7 @@
 				</p>
 			</div>
 			<div class="span-3">
-				<h3>About</h3>
+				<h4>About</h4>
 				<p class="small">
 					<a href="/web/about">About us</a><br />
 					<a href="/web/how-it-works">How it works</a><br />
@@ -94,7 +103,7 @@
 				</p>
 			</div>
 			<div class="span-3">
-				<h3>Partners</h3>
+				<h4>Partners</h4>
 				<p class="small">
 					<a href="/web/partners">Strategic</a><br />
 					<a href="/rsr/organisations/">Project</a><br />
@@ -104,14 +113,14 @@
 				</p>
 			</div>
 			<div class="span-3">
-				<h3>Developers</h3>
+				<h4>Developers</h4>
 				<p class="small">
 					<a href="/labs/">AkvoLabs</a><br />
 					<a href="http://github.com/akvo/">Source code</a><br />
 				</p>
 			</div>
 			<div class="span-3">
-				<h3>Admin</h3>
+				<h4>Admin</h4>
 				<p class="small">
 					<a href="/rsr/admin">Akvo RSR login</a><br />
 					<a href="/blog/wp-login.php">Blog</a><br />
@@ -119,7 +128,7 @@
 				</p>
 			</div>
 			<div class="span-3 last">
-				<h3>Contact us</h3>
+				<h4>Contact us</h4>
 				<p class="small">
 					<a href="http://help.akvo.org/">Help + support</a><br />
 					<a href="/web/contact_us">Contact info</a><br />
